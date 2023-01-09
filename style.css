@@ -1,0 +1,114 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Bakbak One', cursive;
+}
+
+html {
+    height: 90vh;
+    background-color:#2C74B3 ;
+    justify-content: center;
+}
+
+#bg-header {
+    background-color: #0A2647;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    background-color: #0A2647;
+}
+
+#title {
+    align-self: center;
+    justify-self: center;
+    color: #59C1BD;
+    font-size: 45px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.4s;
+}
+
+#title:hover {
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 1200px;
+}
+
+.counter-area {
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 250px;
+}
+
+#count {
+    font-size: 130px;
+    transition: 0.3s;
+}
+
+#count:hover {
+    cursor: pointer;
+    color: darkcyan;
+}
+
+.btn {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  width: 300px;
+  height: 100px;
+  font-size: 40px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #59C1BD;
+}
+.btn:active {
+    background-color: #2C74B3;
+}
+
+.button-area {
+    margin-top: 100px;
+    display: flex;
+}
+
+.btn-sides {
+    width: 60px;
+}
+
+.right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
