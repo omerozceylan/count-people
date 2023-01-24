@@ -4,6 +4,19 @@
     font-family: 'Bakbak One', cursive;
 }
 
+button {
+    text-align: inherit;
+    border: none;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+}
+
 html {
     height: 90vh;
     background-color:#2C74B3 ;
@@ -78,6 +91,10 @@ html {
   background-color: aliceblue;
   transition: 0.3s;
   cursor: pointer;
+  border-width: 2.5px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
 }
 
 .btn:hover {
