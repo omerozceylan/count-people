@@ -64,7 +64,7 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     height: 100%;
     width: 1200px;
 }
@@ -105,7 +105,6 @@ html {
 }
 
 .button-area {
-    margin-top: 100px;
     display: flex;
     -webkit-box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7);
     -moz-box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7);
@@ -162,10 +161,7 @@ html {
         width: 50px;
     }
 
-    .button-area { 
-        margin-top: 60px;
-    }
-     
+
 }
 
 @media (max-width:280px){
@@ -189,10 +185,6 @@ html {
     
     .btn-sides {
         width: 50px;
-    }
-     
-    .button-area { 
-        margin-top: 30px;
     }
      
 }
