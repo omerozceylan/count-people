@@ -49,33 +49,21 @@ html {
 
 .content {
     display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
     height: 100%;
     width: 1200px;
 }
 
-.counter-area {
-    color:black;
-    border-color: black;
-    margin-top: 100px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width: 300px;
-    height: 250px;
-}
 
 #count {
     font-size: 130px;
     transition: 0.3s;
+    user-select: none;
 }
 
-#count:hover {
-    cursor: pointer;
-    color: darkcyan;
-}
+
 
 .btn {
   user-select: none;
@@ -119,4 +107,67 @@ html {
 .left {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+@media (max-width:485px){
+
+    #count {
+        font-size: 110px;
+    }
+   
+    .btn {
+        width: 190px;
+        font-size: 30px;
+    }
+    
+    .btn-sides {
+        width: 50px;
+    }
+     
+}
+
+@media (max-width:330px){
+
+    #title {
+        font-size: 35px;
+    }
+
+    #count {
+        font-size: 105px;
+    }
+   
+    .btn {
+        width: 160px;
+        font-size: 30px;
+    }
+    
+    .btn-sides {
+        width: 50px;
+    }
+     
+}
+
+@media (max-width:280px){
+
+    #title {
+        font-size: 30px;
+    }
+
+    #count {
+        font-size: 100px;
+    }
+   
+    .btn {
+        width: 80px;
+        font-size: 30px;
+    }
+
+    #increment {
+        font-size: 15px;
+    }
+    
+    .btn-sides {
+        width: 50px;
+    }
+     
 }
