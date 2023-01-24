@@ -12,6 +12,9 @@ html {
 
 #bg-header {
     background-color: #0A2647;
+    -webkit-box-shadow: -1px 5px 24px -9px rgba(0,0,0,0.7);
+    -moz-box-shadow: -1px 5px 24px -9px rgba(0,0,0,0.7);
+    box-shadow: -1px 5px 24px -9px rgba(0,0,0,0.7);
 }
 
 #header {
@@ -52,6 +55,8 @@ html {
 }
 
 .counter-area {
+    color:black;
+    border-color: black;
     margin-top: 100px;
     padding: 20px;
     display: flex;
@@ -97,6 +102,9 @@ html {
 .button-area {
     margin-top: 100px;
     display: flex;
+    -webkit-box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7);
+    -moz-box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7);
+    box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7);
 }
 
 .btn-sides {
